@@ -99,19 +99,13 @@ ul a{
 }
 
 .main .bottom button{
-    width: 40%;
     height: 4rem;
     font-size: 1rem;
+    padding: 1rem 5rem 1rem 5rem;
     background-color: black;
     border: 1px solid white;
     color: white;
-    margin: 0 5rem 0 5rem;
     cursor: pointer;
-}
-
-.main .bottom button a{
-    text-decoration: none;
-    color: white;
 }
 
 .white_gradient{
@@ -169,9 +163,6 @@ ul a{
 
     }
 
-    .main .bottom button{
-        width: 80%;
-    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -282,7 +273,7 @@ ul a{
 /* Custom car page */
 
 #container{
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: -1;
 }
