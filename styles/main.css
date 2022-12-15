@@ -217,6 +217,30 @@ ul a{
     height: 50vh;
     margin-left: 2vw;
     border-radius: 100%;
+    position: relative;
+}
+
+.card-overflow{
+    width: 100%;
+    height: 100%;
+    background-color: #161616;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 90%;
+    border-radius: 2vh;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.card:hover .card-overflow{
+    display: flex;
 }
 
 .topCard{
