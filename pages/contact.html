@@ -1,10 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Ferrarie | Contact</title>
+    <link rel="icon" href="../assets/ferrari-web-icon.svg" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="../styles/main.css">
 </head>
 <body>
+    <nav class="navbar">
+        <img src="../assets/ferrari-logo.svg" alt="carImg" class="car-svg" id="navIcon">
+
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="./products.html">OWN PRODUCTS</a></li>
+            <li><a href="./contact.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+
+    <div class="pageContact">
+        <div class="contactBlock">
+            <h1>CONTACT US</h1>
+            <div class="inputBox">
+                <input type="text" required>
+                <h2>FIRST NAME</h2>
+            </div>
     
+            <div class="inputBox">
+                <input type="text" required>
+                <h2>LAST NAME</h2>
+            </div>
+    
+            <div class="inputBox">
+                <input type="text" required> 
+                <!-- Volontairement mit en text et non emaoil pour garder l'effet -->
+                <h2>EMAIL</h2>
+            </div>
+    
+            <div class="inputBox" id="areaPlace">
+                <textarea name="opignon" rows="5"></textarea>
+                <h2 id="messageTitle">MESSAGE</h2>
+            </div>
+
+            <button>SEND</button>
+        </div>
+    </div>
+    <div class="red_gradient_contact"></div>
 </body>
 </html>

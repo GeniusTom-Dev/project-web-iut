@@ -338,3 +338,110 @@ input[type="color"]::-webkit-color-swatch {
     flex-direction: column;
     align-items: center;
 }
+
+/* CONTACT US */
+
+.pageContact{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactBlock{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactBlock h1{
+    font-size: 2rem;
+    color: red;
+    text-shadow: red 1px 0 10px;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    width: 70%;
+}
+
+.inputBox h2{
+    font-size: 1.2rem;
+    color: red;
+}
+
+.inputBox input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    outline: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.inputBox textarea{
+    background-color: transparent;
+    border: none;
+    border: 1px solid white;
+    width: 100%;
+    outline: 0;
+    font-size: 1.5rem;
+    color: white;
+    resize: none;
+}
+
+.inputBox h2{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+#messageTitle{
+    top: -1.8rem;
+}
+
+.inputBox input:focus + h2,
+.inputBox input:valid + h2{
+    bottom: 30px;
+}
+
+#areaPlace{
+    margin-top: 2vh;
+}
+
+.contactBlock button{
+    width: 70%;
+    font-size: 1.2rem;
+    padding: 2vh 1vw 2vh 1vw;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.contactBlock button:hover{
+    background-color: red;
+    border-radius: 2vw;
+    border: 1px solid red;
+}
+
+.red_gradient_contact{
+    background: rgb(255, 0, 0, 0.6 );
+    filter: blur(500px);
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
