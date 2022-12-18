@@ -7,11 +7,13 @@
 }
 
 body{
-    background-color: black;
+    background-color: #ff2727;
     color: white;
 }
 
 /* Dark Mode */
+
+
 
 .darkMode{
     width: 2rem;
@@ -177,8 +179,8 @@ ul a{
     height: 4rem;
     font-size: 1rem;
     padding: 1rem 5rem 1rem 5rem;
-    background-color: black;
-    border: 1px solid white;
+    background-color: transparent;
+    border: 2px solid white;
     color: white;
     cursor: pointer;
 }
@@ -431,7 +433,7 @@ input[type="color"]::-webkit-color-swatch {
 
 .contactBlock h1{
     font-size: 2rem;
-    color: red;
+    
     text-shadow: red 1px 0 10px;
 }
 
@@ -445,7 +447,7 @@ input[type="color"]::-webkit-color-swatch {
 
 .inputBox h2{
     font-size: 1.2rem;
-    color: red;
+    
 }
 
 .inputBox input{
