@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact team of creator from this website. Project from school.">
+    <meta name="keywords" content="Ferrari, custom ferrari">
+    <meta name="author" content="Even Tom & Bougeard Bastien">
+
     <title>Ferrarie | Contact</title>
     <link rel="icon" href="../assets/ferrari-web-icon.svg" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="../styles/main.css">
@@ -14,35 +19,51 @@
             <li><a href="./products.html">OWN PRODUCTS</a></li>
             <li><a href="./contact.html">CONTACT US</a></li>
         </ul>
+
+        <img src="../assets/menu.svg" alt="menu" id="menuIcon">
+
     </nav>
 
+    <div class="extendedMenu">
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="./products.html">OWN PRODUCTS</a></li>
+            <li><a href="./contact.html">CONTACT US</a></li>
+        </ul>
+
+        <h2 id="closeMenu">FERMER</h2>
+    </div>
+
     <div class="pageContact">
-        <div class="contactBlock">
+        <form class="contactBlock">
             <h1>CONTACT US</h1>
             <div class="inputBox">
-                <input type="text" required>
+                <input type="text" required id="firstname">
                 <h2>FIRST NAME</h2>
             </div>
     
             <div class="inputBox">
-                <input type="text" required>
+                <input type="text" required id="lastname">
                 <h2>LAST NAME</h2>
             </div>
     
             <div class="inputBox">
-                <input type="text" required> 
-                <!-- Volontairement mit en text et non emaoil pour garder l'effet -->
+                <input type="text" required id="email"> 
+                <!-- Volontairement mit en text et non email pour garder l'effet -->
                 <h2>EMAIL</h2>
             </div>
     
             <div class="inputBox" id="areaPlace">
-                <textarea name="opignon" rows="5"></textarea>
+                <textarea name="opignon" rows="5" id="mailContent"></textarea>
                 <h2 id="messageTitle">MESSAGE</h2>
             </div>
 
-            <button>SEND</button>
-        </div>
+            <button id="sendEmail">SEND</button>
+        </form>
     </div>
     <div class="red_gradient_contact"></div>
+
+    <script src="../script/mainScript.js"></script>
+
 </body>
 </html>

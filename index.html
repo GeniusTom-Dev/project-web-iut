@@ -2,6 +2,9 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Experimental website to custom your ferrari online. Project from school.">
+    <meta name="keywords" content="Ferrari, custom ferrari">
+    <meta name="author" content="Even Tom & Bougeard Bastien">
     <title>Ferrarie</title>
     <link rel="icon" href="./assets/ferrari-web-icon.svg" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="./styles/main.css">
@@ -16,24 +19,39 @@
             <li><a href="./pages/products.html">OWN PRODUCTS</a></li>
             <li><a href="./pages/contact.html">CONTACT US</a></li>
         </ul>
+
+        <img src="./assets/menu.svg" alt="menu" id="menuIcon">
+
     </nav>
+
+    <div class="extendedMenu">
+        <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./pages/products.html">OWN PRODUCTS</a></li>
+            <li><a href="./pages/contact.html">CONTACT US</a></li>
+        </ul>
+
+        <h2 id="closeMenu">FERMER</h2>
+    </div>
 
     <div class="main">
         <div class="car">
-            <img src="./assets/458-italia.png" alt="car" id="main-car">
             <div class="red_gradient"></div>
+            <img src="./assets/458-italia.png" alt="car" id="main-car">
             <div class="name">
                 <img src="./assets/ferrari-desined.svg" alt="logo" >
                 <h2>458 ITALIA</h2>
+            </div>
+
+            <div class="bottom">
+                <button onclick="location.href='./pages/customCarPage.html'" type="button">
+                    CUSTOM IT</button>
             </div>
         </div>
 
         
 
-        <div class="bottom">
-            <button onclick="location.href='./pages/customCarPage.html'" type="button">
-                CUSTOM IT</button>
-        </div>
+        
 
         <div class="copyrigth">
             <div class="separator"></div>
@@ -44,6 +62,7 @@
         <div class="white_gradient"></div>
     </div>
 
-    
+    <script src="./script/mainScript.js"></script> 
+    <!-- Placement du script après le body et non dans le head comme expliquer sinon aucune détection des éléments -->
 </body>
 </html>  
