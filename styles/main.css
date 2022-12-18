@@ -318,7 +318,7 @@ ul a{
     z-index: -1;
 }
 
-#bottomCardIcon{
+.bottomCardIcon{
     position: absolute;
     bottom: 1vh;
     right: 1vh;
