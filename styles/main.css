@@ -16,8 +16,8 @@ body{
 .darkMode{
     width: 2rem;
     position: absolute;
-    top: 2vw;
-    left: 2vw;
+    top: 2rem;
+    left: 2rem;
     cursor: pointer;
 }
 
